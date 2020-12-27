@@ -69,7 +69,7 @@ aws ec2 describe-vpcs
 # Download the Package
 mkdir kubectlbinary
 cd kubectlbinary
-curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.16.8/2020-04-16/bin/darwin/amd64/kubectl
+curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.18.9/2020-11-02/bin/darwin/amd64/kubectl
 
 # Provide execute permissions
 chmod +x ./kubectl
